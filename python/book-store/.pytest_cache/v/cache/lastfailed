@@ -1,0 +1,9 @@
+{
+  "book_store_test.py::BookStoreTest::test_four_groups_of_4_are_cheaper_than_2_groups_each_of_5_and_3": true,
+  "book_store_test.py::BookStoreTest::test_group_of_4_plus_group_of_2_is_cheaper_than_2_groups_of_3": true,
+  "book_store_test.py::BookStoreTest::test_three_copies_of_first_book_and_2_each_of_remaining": true,
+  "book_store_test.py::BookStoreTest::test_three_each_of_first_2_books_and_2_each_of_remaining_books": true,
+  "book_store_test.py::BookStoreTest::test_two_each_of_first_4_books_and_1_copy_each_of_rest": true,
+  "book_store_test.py::BookStoreTest::test_two_groups_of_4_is_cheaper_than_group_of_5_plus_group_of_3": true,
+  "book_store_test.py::BookStoreTest::test_two_groups_of_4_is_cheaper_than_groups_of_5_and_3": true
+}

@@ -1,6 +1,5 @@
 def binary_search(list_of_numbers, number):
-    n = len(list_of_numbers)
-    l, r = 0, n - 1
+    l, r = 0, len(list_of_numbers) - 1
     while l <= r:
         m = (l + r) // 2
         if list_of_numbers[m] < number:

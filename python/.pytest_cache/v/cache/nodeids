@@ -1,0 +1,8 @@
+[
+  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTest::test_different_garden_with_single_student",
+  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTest::test_disordered_test",
+  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTest::test_full_garden",
+  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTest::test_garden_with_single_student",
+  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTest::test_garden_with_two_students",
+  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTest::test_multiple_students_for_the_same_garden_with_three_students"
+]

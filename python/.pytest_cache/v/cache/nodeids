@@ -1,8 +1,14 @@
 [
-  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTest::test_different_garden_with_single_student",
-  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTest::test_disordered_test",
-  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTest::test_full_garden",
-  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTest::test_garden_with_single_student",
-  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTest::test_garden_with_two_students",
-  "kindergarten-garden/kindergarten_garden_test.py::KindergartenGardenTest::test_multiple_students_for_the_same_garden_with_three_students"
+  "markdown/markdown_test.py::MarkdownTest::test_bold",
+  "markdown/markdown_test.py::MarkdownTest::test_h1",
+  "markdown/markdown_test.py::MarkdownTest::test_h2",
+  "markdown/markdown_test.py::MarkdownTest::test_h6",
+  "markdown/markdown_test.py::MarkdownTest::test_italics",
+  "markdown/markdown_test.py::MarkdownTest::test_little_bit_of_everything",
+  "markdown/markdown_test.py::MarkdownTest::test_mixed_normal_italics_and_bold",
+  "markdown/markdown_test.py::MarkdownTest::test_paragraph",
+  "markdown/markdown_test.py::MarkdownTest::test_symbols_in_the_header_text_that_should_not_be_interpreted",
+  "markdown/markdown_test.py::MarkdownTest::test_symbols_in_the_list_item_text_that_should_not_be_interpreted",
+  "markdown/markdown_test.py::MarkdownTest::test_symbols_in_the_paragraph_text_that_should_not_be_interpreted",
+  "markdown/markdown_test.py::MarkdownTest::test_unordered_lists"
 ]

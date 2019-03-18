@@ -1,12 +1,25 @@
 from collections import Counter
-def calculate_total(books):
-    book_counts = Counter(books)
-    gross_cost = len(books)*800
-    ranked_counts = list(sorted(book_counts.values()))
-    ranked_counts.append(0)
-    print(ranked_counts)
-    discount_vals = [0, 80, 240,  640, 1000]
-    discount_sum = sum([(ranked_counts[i] - ranked_counts[i+1]) * \
-                            discount_vals[i] for i in range(len(ranked_counts)-1)])
 
-    return gross_cost - discount_sum
+DISCOUNTS = {
+    0:0,
+    1:80,
+    2:240,
+    3:640,
+    4:1000,
+}
+
+def calculate_total(books):
+    book_counts = sorted(Counter(books).values())[::-1] + [0]
+    differences = [v[0] - v[1] for v in zip(book_counts[:-1],book_counts[1:])]
+    cost = len(books) * 800
+    for i, d in enumerate(differences):
+        cost -= DISCOUNTS[i]*d
+
+    if len(differences) == 5:
+        adjust_5_3 = min(differences[2],differences[4])
+
+        cost -= adjust_5_3 * 40
+
+    return cost
+
+

@@ -1,1 +1,7 @@
-{}
+{
+  "markdown/markdown_test.py::MarkdownTest::test_little_bit_of_everything": true,
+  "markdown/markdown_test.py::MarkdownTest::test_symbols_in_the_list_item_text_that_should_not_be_interpreted": true,
+  "markdown/markdown_test.py::MarkdownTest::test_unordered_lists": true,
+  "raindrops/raindrops_test.py::RaindropsTest": true,
+  "sublist/sublist_test.py": true
+}
